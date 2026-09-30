@@ -1,4 +1,4 @@
-# @xromdev/6502
+# @xromdev/cpu6502
 
 The NES's CPU — the 6502 in the 2A03 — in TypeScript. **All 256 opcodes, cycle
 counts, a bus you plug memory into.**
@@ -20,13 +20,13 @@ and the sound on [xrom.dev](https://xrom.dev).
 ## Install
 
 ```sh
-npm install @xromdev/6502
+npm install @xromdev/cpu6502
 ```
 
 ## Use
 
 ```ts
-import { Cpu6502, disassemble } from '@xromdev/6502';
+import { Cpu6502, disassemble } from '@xromdev/cpu6502';
 
 const memory = new Uint8Array(0x10000);
 memory.set([0xa2, 0x05, 0xca, 0xd0, 0xfd, 0x00], 0xc000); // LDX #5; DEX; BNE; BRK

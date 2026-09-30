@@ -1,5 +1,5 @@
 /**
- * @xromdev/6502 — the NES's CPU in TypeScript.
+ * @xromdev/cpu6502 — the NES's CPU in TypeScript.
  *
  * `Cpu6502` runs code against a `Bus` you supply, one instruction at a time,
  * counting cycles. `OPCODES` describes all 256 opcodes; `disassemble` turns
