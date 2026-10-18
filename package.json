@@ -1,6 +1,6 @@
 {
   "name": "@xromdev/cpu6502",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The NES's 6502 CPU in TypeScript: all 256 opcodes, cycle counts, a bus you plug memory into.",
   "license": "MIT",
   "author": "Oleksandr Maksymov",
